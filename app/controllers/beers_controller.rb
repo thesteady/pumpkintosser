@@ -1,6 +1,6 @@
 class BeersController < ApplicationController
 	def index
-		@beers = Beer.all
+		@beers = Beer.includes(:ratings).all.sort_by(&:name)
 	end
 
 	def show

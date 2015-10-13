@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   get '/logout' => 'sessions#destroy'
 
   resources :beers, only: :show
+
+  resources :users, only: :index
 end

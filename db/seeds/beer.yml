@@ -7,3 +7,23 @@
   brewery: Upslope
   abv: 7.0
   description: boulder yo
+
+- name: Gourdian Knot
+  brewery: Epic
+  abv: 5.6
+  description: its beer
+
+- name: Spicy Gourd
+  brewery: Somebrewery
+  abv: 7.0
+  description: what a name
+
+- name: Pumpkick
+  brewery: New Belgium
+  abv: 11.0
+  description: strong stuff
+
+- name: Grammas Pie
+  brewery: Homebrew
+  abv: 4.3
+  description: tastes like cigarettes

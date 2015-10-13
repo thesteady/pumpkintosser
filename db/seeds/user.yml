@@ -1,0 +1,19 @@
+- name: Pump Khin
+  email: pumpkhin@example.com
+  password: password
+  password_confirmation: password
+
+- name: Jack O. Lantern
+  email: jack@example.com
+  password: password
+  password_confirmation: password
+
+- name: Meg Nut
+  email: meg@example.com
+  password: password
+  password_confirmation: password
+
+- name: Cin Amon
+  email: cin@example.com
+  password: password
+  password_confirmation: password

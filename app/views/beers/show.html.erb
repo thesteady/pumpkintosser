@@ -2,3 +2,5 @@
 <h2><%= @beer.brewery %></h2>
 <p>ABV: <%= @beer.abv %></p>
 <p><%= @beer.description %></p>
+
+<p>Average Rating: <%= @beer.average_rating || "not rated" %></p>
