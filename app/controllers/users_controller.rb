@@ -4,10 +4,14 @@ class UsersController < ApplicationController
 	end
 
 	def create
-		user = user.new(user_params)
+		user = User.new(user_params)
+
 		if user.save
-			redirect_to root_path
+			flash[:notice] = "Successfully created account!"
+			redirect_to login_path
 		else
+			msgs = user.errors.full_messages.join(", ")
+			flash[:alert] = "Could not create account! Reasons: #{msgs}"
 			redirect_to signup_path
 		end
 	end

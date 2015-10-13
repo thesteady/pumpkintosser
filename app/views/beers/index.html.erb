@@ -13,7 +13,7 @@
 
 		<% @beers.each do |beer| %>
 			<tr>
-				<td><%= beer.name %></td>
+				<td><%= link_to beer.name, beer_path(beer) %></td>
 				<td><%= beer.brewery %></td>
 				<td><%= beer.abv %></td>
 			</tr>

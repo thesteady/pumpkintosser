@@ -1,9 +1,15 @@
 <h1>Log In To Start Rating Pumpkin Beers!</h1>
 
 <%= form_tag login_path do %>
+	<div>
+		<%= label_tag :email %>
+	  <%= text_field_tag :email %>
+	</div>
+	<div>
+		<%= label_tag :password %>
+		<%= password_field_tag :password %>
+	</div>
 
-  yo' email: <%= text_field_tag :email %>
-  yo' password: <%= password_field_tag :password %>
 
   <%= submit_tag "Let's Party" %>
 <% end %>
