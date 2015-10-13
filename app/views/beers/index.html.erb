@@ -1,0 +1,24 @@
+<h1>Welcome to PumpkinTosser, where we rate pumpkin beers!</h1>
+
+<h2>Here are all the pumpkin beers we can rate:</h2>
+
+<table>
+	<thead>
+		<th>Name</th>
+		<th>Brewery</th>
+		<th>ABV</th>
+	</thead>
+
+	<tbody>
+
+		<% @beers.each do |beer| %>
+			<tr>
+				<td><%= beer.name %></td>
+				<td><%= beer.brewery %></td>
+				<td><%= beer.abv %></td>
+			</tr>
+	 	<% end %>
+
+
+	</tbody>
+</table>

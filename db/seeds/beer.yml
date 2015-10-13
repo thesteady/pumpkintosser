@@ -1,0 +1,9 @@
+- name: Smashed Pumpkin
+  brewery: Shipyard Brewing
+  abv: 9.0
+  description: beer from maine
+
+- name: Pumpkin Ale
+  brewery: Upslope
+  abv: 7.0
+  description: boulder yo
